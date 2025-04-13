@@ -1,0 +1,332 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey",
+                "Good day",
+                "How are you?"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you!",
+                "Hi there, how can I help?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "farewell",
+            "patterns": [
+                "Goodbye",
+                "Bye",
+                "See you later",
+                "Talk to you later"
+            ],
+            "responses": [
+                "Sad to see you go :(",
+                "Goodbye!",
+                "Come back soon!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "creator",
+            "patterns": [
+                "Who created you?",
+                "Who is your developer?",
+                "Who made you?"
+            ],
+            "responses": [
+                "I was created by Ghana Sai."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "identity",
+            "patterns": [
+                "What is your name?",
+                "What should I call you?",
+                "Who are you?"
+            ],
+            "responses": [
+                "You can call me SIT. I'm a SIT Chatbot."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "contact",
+            "patterns": [
+                "How can I contact the college?",
+                "What is the college telephone number?",
+                "Can I get your contact number?"
+            ],
+            "responses": [
+                "You can contact the college at +918374983818,+919032548008."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "courses",
+            "patterns": [
+                "What courses are offered in the college?",
+                "Can you tell me about the available courses?",
+                "What are the branches in the college?"
+            ],
+            "responses": [
+                "The college offers courses in Artificial Intelligence and Machine Learning (AIML), Computer Science and Engineering(CSE), Computer Science and Technology(CST) and Computer Engineering(CE)."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "fees",
+            "patterns": [
+                "How much is the college fee?",
+                "Tell me about the fees",
+                "What are the hostel fees?"
+            ],
+            "responses": [
+                "For detailed fee information, please visit our college website : https://sithyd.siu.edu.in/pdfs/SIT-Hyderabad-UG-Fee-Approval-Letter-AY-2024-25.pdf"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "location",
+            "patterns": [
+                "Where is the college located?",
+                "What is the college address?",
+                "How can I reach the college?"
+            ],
+            "responses": [
+                "The college is located at [Survey Number 292, Off Bangalore Highway, Modallaguda (V), Nandigama (M), Rangareddy Dist, Hyderabad, Telangana, India, Pin Code : 509217]. You can find the location on Google Maps."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "hostel",
+            "patterns": [
+                "Does the college provide hostel facilities?",
+                "Where is the hostel located?",
+                "What are the hostel fees?"
+            ],
+            "responses": [
+                "For detailed information about the hostel, please visit our college website : https://sithyd.siu.edu.in/hostel"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "admission",
+            "patterns": [
+                "What is the admission process?",
+                "How can I take admission in the college?",
+                "Tell me about the admission criteria."
+            ],
+            "responses": [
+                "For detailed admission information, please visit our college website : https://sithyd.siu.edu.in/programme-overview"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "facilities",
+            "patterns": [
+                "What facilities are available in the college?",
+                "Tell me about the college facilities.",
+                "Do you have a sports complex?",
+                "Do you have a Cafeteria or mess?"
+            ],
+            "responses": [
+                "The college provides various facilities including a sports complex, labs, cafeteria, and a library. For sports:https://sithyd.siu.edu.in/sports and For Cafeteria:https://sithyd.siu.edu.in/mess"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Library E-Portal",
+            "patterns": [
+                "Give me the link of the library e-portal?",
+                "Can you provide the URL for the library's e-resources platform?",
+                "Where is the Library e-portal access?"
+            ],
+            "responses": [
+                "This is the library E-Portal link : https://elibrary.siu.edu.in/home"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "LMS Portal",
+            "patterns": [
+                "Can you just provide the attendance portal or LMS portal?",
+                "Where can I check the attendance?"
+            ],
+            "responses": [
+                "Through this link you can find the attendance : https://lmssithyd.siu.edu.in/"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Academic Calendar",
+            "patterns": [
+                "Can you provide the academic calendar?",
+                "Can you provide the academic calendar?",
+                "I’d like to know the academic schedule?"
+            ],
+            "responses": [
+                "For detailed information about the academic calendar, please go through this link. For Odd semester : https://sithyd.siu.edu.in/pdfs/Academic_Calendar_Aug%202024-Dec%202024.pdf and For even semester: https://sithyd.siu.edu.in/pdfs/SITH_AC_II%20SEM_2024-25.pdf"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Curriculum",
+            "patterns": [
+                "Where can I find information on the academic syllabus?",
+                "Can you provide details about the academic curriculum?",
+                "What subjects are covered in the curriculum?",
+                "What subjects are covered in the curriculum?."
+            ],
+            "responses": [
+                "For detailed information about the curriculum, please go through this link : https://sithyd.siu.edu.in/curriculum"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "academic policy",
+            "patterns": [
+                "Can you provide details about the academic policies?",
+                "Where can I find the academic policy document?",
+                "What are the academic rules and regulations?"
+            ],
+            "responses": [
+                "For detailed information about the academic policies, please go through this link : https://siu.edu.in/IQAC/policies-and-manual.php"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Examination policy",
+            "patterns": [
+                "Can you provide the rules for examinations?",
+                "Where can I find the examination guidelines?",
+                "Where can I access the rules regarding exams?"
+            ],
+            "responses": [
+                "For detailed information about the examination policies, please go through this link : https://sithyd.siu.edu.in/examination"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "List Of holidays",
+            "patterns": [
+                "Can you provide the holiday schedule?",
+                "Where can I find the list of holidays?",
+                "What are the upcoming holidays?"
+            ],
+            "responses": [
+                "For detailed information about the holiday schedule, please go through this link : https://sithyd.siu.edu.in/pdfs/List_of_holidays.pdf"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Refund Rules",
+            "patterns": [
+                "Where can I find the rules for refunds?",
+                "What are the guidelines for requesting a refund?",
+                "Can you provide the refund policy?"
+            ],
+            "responses": [
+                "For detailed information about the refund rules, please go through this link : https://sithyd.siu.edu.in/admission-cancellation-process"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Auditorium",
+            "patterns": [
+                "Can we know about the auditorium?",
+                "Can you provide details about the auditorium?",
+                "Can you provide the pictures of the auditorium?"
+            ],
+            "responses": [
+                "For detailed information about the auditorium, please go through this link : https://sithyd.siu.edu.in/auditorium"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Health Care or hospital",
+            "patterns": [
+                "Can you provide details of the Health care or hospital?"
+            ],
+            "responses": [
+                "For detailed information about the Health care or hospital, please go through this link : https://sithyd.siu.edu.in/hospital"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Faculty",
+            "patterns": [
+                "Can you provide information about the faculty?",
+                "Where can I find details about the faculty members?",
+                "Could you tell me more about the teaching staff?"
+            ],
+            "responses": [
+                "For detailed information about the faculty, please go through this link : https://sithyd.siu.edu.in/faculty-profile"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Latest news or Latest Updates",
+            "patterns": [
+                "What is the latest news in the campus?",
+                "What is the updates in the campus?"
+            ],
+            "responses": [
+                "For detailed information about the latest news, please go through this link : https://sithyd.siu.edu.in/campus-news"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Alumni",
+            "patterns": [
+                "Can you provide information about the alumni of the institute?",
+                "Can you share information about the alumni community?",
+                "Where can I find details about the alumni network?"
+            ],
+            "responses": [
+                "For detailed information about the alumni, please go through this link : https://sithyd.siu.edu.in/alumni"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Student Council",
+            "patterns": [
+                "Can you provide information about the student council?",
+                "Can you share the names of the student council officers?",
+                "Where can I find details about the student council members?"
+            ],
+            "responses": [
+                "For detailed information about the student council, please go through this link : https://sithyd.siu.edu.in/student-council"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Institute",
+            "patterns": [
+                "Could you tell me more about the institute programs?",
+                "Can you provide information about the institute?",
+                "Where can I find details about the institute?"
+            ],
+            "responses": [
+                "For detailed information about the institute, please go through this link : https://sithyd.siu.edu.in/about-institute"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "director",
+            "patterns": [
+                "May I Know Who is the director of the institute?",
+                "Can you provide details about the director?"
+            ],
+            "responses": [
+                "For detailed information about the director, please go through this link : https://sithyd.siu.edu.in/the-director"
+            ],
+            "context_set": ""
+        }
+    ]
+}
