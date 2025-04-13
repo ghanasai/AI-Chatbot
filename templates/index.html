@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SIT Enquiry Bot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img class="header-image" src="{{ url_for('static', filename='images/footer_image.png') }}" alt="Header Image">
+            <span>SIT Enquiry Bot</span>
+        </div>
+    </header>
+    <div class="container">
+        <div class="chat-box" id="chat-roll">
+            <p class="bot-message"><b>Bot:</b> Welcome! How can I help you today?</p>
+            <div id="chat-history">
+                {% for message, response in chat_history %}
+                    <p class="user-message"><b>You:</b> {{ message }}</p>
+                    <p class="bot-message"><b>Bot:</b> {{ response }}</p><hr>
+                {% endfor %}
+            </div>
+        </div>
+
+        <form action="/" method="POST">
+            <input type="text" name="message" placeholder="Type your message here..." required>
+            <input type="submit" value="Send">
+        </form>
+        
+        <footer>
+            <div class="footer-text">
+                <span>&copy; Ghana Sai Redddy </span>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        // JavaScript code
+        var chatHistory = {{ chat_history|tojson|safe }};
+
+        function displayChatHistory() {
+            var chatBox = document.getElementById("chat-history");
+            chatBox.innerHTML = "";
+
+            for (var i = 0; i < chatHistory.length; i++) {
+                var userMessage = chatHistory[i][0];
+                var botResponse = chatHistory[i][1];
+
+                var userMessageElement = document.createElement("p");
+                userMessageElement.classList.add("user-message");
+                userMessageElement.innerHTML = "<b>You:</b> " + userMessage;
+
+                var botMessageElement = document.createElement("p");
+                botMessageElement.classList.add("bot-message");
+                botMessageElement.innerHTML = "<b>Bot:</b> " + botResponse;
+
+                chatBox.appendChild(userMessageElement);
+                chatBox.appendChild(botMessageElement);
+                chatBox.appendChild(document.createElement("hr"));
+            }
+
+            chatBox.scrollTop = chatBox.scrollHeight; // Scroll to latest message
+        };
+    </script>
+</body>
+</html>
