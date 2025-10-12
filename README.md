@@ -12,7 +12,10 @@ The project integrates several technologies to deliver an end-to-end conversatio
 - **Natural Language Toolkit (NLTK) / spaCy** – For preprocessing and understanding user text.  
 - **Deep Learning Models (TensorFlow / PyTorch)** – To power intent classification and response generation.  
 - **Flask** – To serve the chatbot as a web application.  
-- **HTML / CSS / JavaScript** – For a simple interactive UI.  
+- **HTML / CSS / JavaScript** – For a simple interactive UI.
+
+  ![WhatsApp Image 2025-10-11 at 21 55 56_3447bd50](https://github.com/user-attachments/assets/578dda16-6fdd-467e-9c2e-596ef6ba9279)
+
 
 ### Architecture Flow
 1. User interacts with the chatbot through a web interface.  
