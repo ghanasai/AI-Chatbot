@@ -33,6 +33,9 @@ The project integrates several technologies to deliver an end-to-end conversatio
 4. **Response Generation** – Based on predicted intent, a matching response is returned.  
 5. **Deployment** – The chatbot is deployed via Flask for web-based interaction.
 
+<img width="1919" height="736" alt="Screenshot 2025-10-12 192322" src="https://github.com/user-attachments/assets/68907175-0bab-4e69-949a-39903e8367be" />
+
+
 ---
 
 ## Dataset
