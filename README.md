@@ -16,3 +16,26 @@ The project integrates several technologies to deliver an end-to-end conversatio
 
 ![WhatsApp Image 2025-10-11 at 21 55 56_b8cd7a90](https://github.com/user-attachments/assets/7d57e8ff-b93a-4637-bb9f-6691a6aa6e58)
 
+Architecture Flow:
+
+1. User interacts with the chatbot through a web interface.
+
+2. User text is preprocessed (tokenization, stemming/lemmatization, stop-word removal).
+
+3. Intent classification model predicts the category of the query.
+
+4. The chatbot retrieves or generates the appropriate response.
+
+5. Response is displayed back to the user in the chat interface.
+
+# Data Flow
+
+1. Data Source – Predefined intents JSON file containing patterns and responses.
+
+2. Preprocessing – Text is cleaned, tokenized, and converted into numerical form (Bag of Words/TF-IDF/Embeddings).
+
+3. Model Training – A neural network is trained to classify intents.
+
+4. Response Generation – Based on predicted intent, a matching response is returned.
+
+5. Deployment – The chatbot is deployed via Flask for web-based interaction.
