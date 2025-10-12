@@ -13,3 +13,6 @@ The project integrates several technologies to deliver an end-to-end conversatio
 4. Flask – To serve the chatbot as a web application.
 
 5. HTML/CSS/JavaScript – For a simple interactive UI.
+
+![WhatsApp Image 2025-10-11 at 21 55 56_b8cd7a90](https://github.com/user-attachments/assets/7d57e8ff-b93a-4637-bb9f-6691a6aa6e58)
+
